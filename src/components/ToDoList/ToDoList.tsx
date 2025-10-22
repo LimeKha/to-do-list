@@ -1,5 +1,5 @@
 import { ToDo } from "../../models/todo-item";
-import "./ToDolist.scss";
+import "../ToDoList/ToDoList.scss";
 import { ToDoListItem } from "./ToDoListItem/ToDoListItem";
 
 export const ToDoList = (props: {

@@ -74,7 +74,7 @@ body {
     button {
       width: 50px;
       height: 50px;
-      background: transparent url('/images/plus.png') no-repeat center/cover;
+      background: transparent url(../src/assets/images/plus.png) no-repeat center/cover;
       position: absolute;
       top: 15px;
       right: 15px;
@@ -193,7 +193,7 @@ body {
         cursor: pointer;
 
         &.btn-trash {
-          background-image: url('/images/trash.png');
+          background-image: url(../src/assets/images/trash.png);
 
           &:last-of-type:before {
             content: '';
@@ -208,10 +208,10 @@ body {
         }
 
         &.btn-check {
-          background-image: url('/images/check.png');
+          background-image: url(../src/assets/images/check.png);
         }
         &.btn-uncheck {
-          background-image: url('/images/uncheck.png');
+          background-image: url(../src/assets/images/uncheck.png);
         }
       }
     }
